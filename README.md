@@ -23,6 +23,18 @@ Macros designed for **Writer** documents.
 - Shows use of the `Text` and `Cursor` objects for text manipulation.
 > Location in LibreOffice profile (for reference): `.../user/basic/Standard/`
 
+### 💻 strip_bas_from_xba.sh
+
+- Extracts StarBasic from .xba XML into plain .bas (decodes XML entities).
+- Usage: run in a directory containing *.xba:
+
+```bash
+./strip_bas_from_xba.sh
+```
+
+Output: creates ModuleName.bas next to each ModuleName.xba.
+Note: Works when code is inside <source>…</source>. If your modules embed code directly in <script:module>…</script:module>, this script will produce empty files.
+
 ---
 
 ## Quick Start
