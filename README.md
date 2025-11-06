@@ -32,8 +32,8 @@ Macros designed for **Writer** documents.
 ./strip_bas_from_xba.sh
 ```
 
-Output: creates ModuleName.bas next to each ModuleName.xba.
-Note: Works when code is inside <source>…</source>. If your modules embed code directly in <script:module>…</script:module>, this script will produce empty files.
+* *Output: creates ModuleName.bas next to each ModuleName.xba.*
+* *Note: Works when code is inside `<source>…</source>`. If your modules embed code directly in `<script:module>…</script:module>`, this script will produce empty files.*
 
 ---
 
