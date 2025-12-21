@@ -53,3 +53,4 @@ Restart LibreOffice, then run via: **Tools → Macros → Run Macro…**
 3. Select *Standard* → **Modules… → New → Import**
 4. Choose the `.bas` files.
 
+(yes, I did get chatgpt to write the readme...)
